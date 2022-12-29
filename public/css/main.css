@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    box-sizing: border-box;
+
+  }
+  
+  header ul li {
+    padding: 0.1rem 0.4vw;
+  }
+  
+  header ul li a {
+    font-family: "Fira Code";
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-text-black);
+    letter-spacing: 3px;
+  }
+  
+  header #logo {
+    font-family: "Fira Code";
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-text-black);
+    letter-spacing: 3px;
+  }
+  
+  a:hover {
+    background: #465a320d;
+  }
+  
+  #menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+  }
+  
+  .contate-header {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+  }
+  
+  .contate-header a {
+    font-family: "Fira Code";
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-text-black);
+    letter-spacing: 3px;
+  
+    display: flex;
+    padding: 0.5rem;
+  }

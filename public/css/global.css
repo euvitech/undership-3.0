@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary:  #465A32;
+    --color-secundary: #CDD0CA;
+    --color-background: #EEECE9;
+    
+    --color-comment: #607B96;
+    --color-link: #FEA55F;
+    --color-name: #6732d9;
+    --color-var: #d9042b;
+
+
+    ---color-text-black: #0e0e0e;
+}
+
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 65.5%;
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+/* Esconde uma tag */
+
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar-track {
+    background-color: #dadada;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+}
+
+/* MENU */
+#logo {
+    width: 3.5rem;
+}
+
+h1 {
+    font-family: "Fira Code";
+    font-size: 4.2rem;
+    font-weight: 500;
+    color: var(--color-text-black);
+}
+
+h2 {
+    font-family: "Fira Code";
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--color-text-black);
+}
+
+p {
+    font-family: "Fira Code";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: var(--color-text-black);
+    letter-spacing: 3px;
+}
+
+span {
+    font-family: "Fira Code";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: var(--color-text-black);
+    letter-spacing: 3px;
+}
