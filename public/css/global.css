@@ -4,18 +4,20 @@
     border: none;
     text-decoration: none;
     box-sizing: border-box;
+
+    scroll-behavior: smooth;
 }
 
-:root {
-    --color-primary:  #465A32;
-    --color-secundary: #CDD0CA;
-    --color-background: #EEECE9;
-    
-    --color-comment: #607B96;
-    --color-link: #FEA55F;
-    --color-name: #6732d9;
-    --color-var: #d9042b;
 
+:root {
+    --color-primary:  #242bdd;
+    --color-secundary: #FEA55F;
+    --color-terceary: #FABE90;
+    --color-quatoary: #E0DD9D;
+
+    --color-background: #e1e1e1;
+    --color-background-secundary: #13111A;
+    --color-card: #13111a;
 
     ---color-text-black: #0e0e0e;
 }
@@ -31,8 +33,11 @@ body {
     background-color: var(--color-background);
 }
 
-/* Esconde uma tag */
+#menu {
+    margin-bottom: 0rem;
+}
 
+/* Esconde uma tag */
 .sr-only {
     position: absolute;
     height: 1px;
@@ -64,21 +69,32 @@ body {
 }
 
 h1 {
-    font-family: "Fira Code";
-    font-size: 4.2rem;
-    font-weight: 500;
+    font-family: 'Poppins';
+    font-weight: 700;
     color: var(--color-text-black);
+
 }
 
 h2 {
-    font-family: "Fira Code";
-    font-size: 2.5rem;
+    font-family: 'Poppins';
     font-weight: 500;
     color: var(--color-text-black);
 }
 
 p {
-    font-family: "Fira Code";
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    line-height: 2.1rem;
+    letter-spacing: 2px;
+    color: var(--color-text-black);
+
+    max-width: 72ch;
+}
+
+span {
+    font-family: "Poppins";
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.1rem;
@@ -86,11 +102,54 @@ p {
     letter-spacing: 3px;
 }
 
-span {
-    font-family: "Fira Code";
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 2.1rem;
-    color: var(--color-text-black);
-    letter-spacing: 3px;
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: var(--color-cta-button-background);
 }
+
+
+.btn-off {
+    background-image: linear-gradient(to right, #212121 0%, #131313  51%, #000000  100%);
+    margin: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(160, 160, 160);   
+    box-shadow: 0 0 20px #eee;
+
+    border-radius: 2rem;
+    display: block;
+
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+ 
+  .btn-grad {
+    background-image: linear-gradient(to right, #E0DD9D 0%, #FABE90  51%, #FEA55F  100%);
+    margin: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;   
+    
+
+    border-radius: 2rem;
+    display: block;
+
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
