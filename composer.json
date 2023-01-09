@@ -1,0 +1,20 @@
+{
+    "name": "vinicius/vendor",
+    "require": {
+        "google/apiclient": "^2.10",
+        "hybridauth/hybridauth": "~3.0",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vinicius\\Vendor\\": "public/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinicius Pereira",
+            "email": "vguard.2003@gmail.com"
+        }
+    ]
+}
