@@ -15,9 +15,14 @@
     --color-terceary: #FABE90;
     --color-quatoary: #E0DD9D;
 
-    --color-background: #e1e1e1;
+    --color-white: #fff;
+
+    --color-background: #e9e9e9;
     --color-background-secundary: #13111A;
-    --color-card: #13111a;
+    --color-background-accordion: #242bdd;
+    --color-card: #fff;
+
+    --color-comment: #bbbbbb;
 
     ---color-text-black: #0e0e0e;
 }
@@ -75,15 +80,21 @@ h1 {
 
 }
 
-h2 {
+h2, h3, h4, h5 {
     font-family: 'Poppins';
     font-weight: 500;
     color: var(--color-text-black);
 }
 
-p {
+ul li {
     font-family: 'Poppins';
     font-size: 1.2rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Poppins';
+    font-size: 1.4rem;
     font-weight: 500;
 
     line-height: 2.1rem;
@@ -102,10 +113,18 @@ span {
     letter-spacing: 3px;
 }
 
+.comment {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-comment);
+    letter-spacing: 2px;
+}
+
 button{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     cursor: pointer;
     background-color: var(--color-cta-button-background);
 }
@@ -140,16 +159,51 @@ button{
     
 
     border-radius: 2rem;
-    display: block;
+    /* display: block; */
 
     font-family: "Poppins";
     font-weight: 500;
     font-size: 1.6rem;
   }
 
-
   .btn-grad:hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
   }
+  
+  .feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 0.75rem;
+}
+
+
+
+label, input, textarea {
+    color: var(--color-background);
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+#check-auto{
+    color: #e9e9e9;
+    opacity: .2;
+    font-size: 1rem;
+}
+
+.mb-label {
+    margin-bottom: 2rem;
+}
+
+.mt-label {
+    margin-top: 2rem;
+}
+

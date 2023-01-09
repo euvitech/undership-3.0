@@ -1,19 +1,3 @@
-header {
-    align-items: center;
-    width: 100vw;
-    /* height: 50px; */
-
-    padding: 1rem;
-    box-sizing: border-box;
-
-    background: var(--color-background);
-    border-radius: .8rem;
-
-    /* box-shadow: 0 8px 32px 0 rgb(31 38 135 / 28%);
-    backdrop-filter: blur( 0.5px ); */
-
-    z-index: 1;
-  }
 
   .menuFixo {
     position: fixed;
@@ -54,9 +38,14 @@ header {
   }
 
   header a span {
-    color: var(--color-background-secundary);
-    font-size: .8rem;
+    color: var(--color-background);
+    font-size: 1.2rem;
     margin-left: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .disable {
+    display: none;
   }
   
   header #logo {
@@ -173,17 +162,18 @@ header {
 
   
 /*SOBRE*/
-#sobre {
-  border-radius: .8rem;
-  padding: 0rem 2rem 0rem 2rem;
 
-  background: var(--color-card); 
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.279);
+.card {
+  background-color:#fff;
+}
 
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+.sobre-img img {
+  width: 30rem;
+}
 
-  padding: 5rem;
+#border-card {
+  border: 2rem;
+  border-color: var(--color-background);
 }
 
 .title {
@@ -197,102 +187,45 @@ header {
 
   padding-bottom: 5rem;
 }
-
-.diary {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  align-content: center;
-  align-items: center;
-  justify-items: stretch;
-}
-
-.diary .my-code-font {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.diary .my-code-font p{
-  font-family: 'Poppins';
-  font-size: 1.6rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-  /* line-height: 2.1rem; */
-}
-
-.diary .my-code-font li{
-  font-family: 'Poppins';
-  font-size: 1.6rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-
-  margin-bottom: 2rem;
-  list-style: none;
-}
-
-.passion {
-  margin: 2rem 0rem 0rem 2rem;
-}
-
-.diary .my-code-font .function,
-.diary .my-code-font .passion {
-  display: flex;
-}
-
-.diary .my-code-font .function span,
-.diary .my-code-font .passion span{
-  margin-right: 1rem;
-}
-
-.diary span {
-  justify-content: initial;
-  margin: 0;
-}
-
-.diary p {
-  font-family: "Poppis";
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--color-text-black);
-  letter-spacing: 3px;
-
-  margin: 2rem 0rem 2rem 2rem;
-}
-
-.diary .my-code-font .passion p {
-  margin: 0;
-}
-
-.img-diary {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-}
-
-.img-diary img{
-  width: 50%;
-}
-
-.img-diary img:nth-child(2) {
-  position: relative;
-  left: 40%;
-}
-
 /*  Benefícios  */
 
-.cards img {
-  width: 30%;
+.step-number-inner {
+  font-family: 'Poppins';
+  font-size: 10rem;
+  font-weight: 700;
+  color: var(--color-text-black);
 }
 
-.card-1 {
-  background: var(--color-card);
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.279);
-  backdrop-filter: blur( 0.2px );
-  
-  border-radius: 1.0rem;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  
-  padding: 5rem;
+.step {
+  display: flex;
+  align-items: center;
+}
 
-  margin: 2rem 2rem;
+.step-body h3 {
+  font-size: 2rem;
+}
+
+.step-body img {
+  width: 20rem;
+  height: auto;
+}
+
+#services {
+  margin: 5rem auto;
+}
+
+#services h1{
+  margin-bottom: 2rem;
+}
+
+#no-container {
+  max-width: 100%;
+}
+
+#services {
+  padding: 5rem 0rem;
+}
+
+#beneficios {
+  margin-top: 5rem;
 }
