@@ -149,21 +149,20 @@ button{
   }
  
   .btn-grad {
-    background-image: linear-gradient(to right, #E0DD9D 0%, #FABE90  51%, #FEA55F  100%);
-    margin: 5px;
-    padding: 10px 20px;
-    text-align: center;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: black;   
-    
-
-    border-radius: 2rem;
-    /* display: block; */
-
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 1.6rem;
+      padding: 1rem 2rem;;
+      text-align: center;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: black;   
+      
+      background-image: linear-gradient(to right, #E0DD9D 0%, #FABE90  51%, #FEA55F  100%);
+      
+      border-radius: 2rem;
+      /* display: block; */
+      
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 1.6rem;
   }
 
   .btn-grad:hover {
@@ -183,7 +182,6 @@ button{
     color: #fff;
     border-radius: 0.75rem;
 }
-
 
 label, input, textarea {
     color: var(--color-background);

@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" media="all" href="public/css/main.css">
     <link rel="stylesheet" type="text/css" media="all" href="public/css/global.css">
 
+    <!-- Logo -->
+    <link rel="icon" href="public/assets/logo-white.svg">
+
     <!-- bootstrap -->
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <script src="public/script/bootstrap.bundle.min.js"></script>
@@ -21,23 +24,40 @@
   <div id="bg-header" class="fixed-top">
   <div class="container">
     <header class="d-flex align-items-center justify-content-center justify-content-md-between py-3 mb-4" id="header">
-      <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none" id="a-text">
-        <img id="logo" src="public/assets/logo.svg" alt="Logo Undership">
-        <span id="text-logo" class="mx-5"></span>
+      <a href="#" class="col-6 navbar-brand d-flex align-items-center col-sm-6 col-md-3 mb-2 mb-md-0 text-dark text-decoration-none" id="a-text">
+        <img class="" id="logo" src="public/assets/logo.svg" alt="Logo Undership">
+        <span id="text-logo" class="mx-5 "></span>
       </a>
 
-      <ul id="list-nav" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#sobre" class="nav-link px-2 text-dark">Quem Somos</a></li>
+      <ul id="list-nav" class="d-none d-md-flex nav col-5 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#sobre" class=" nav-link px-2 text-dark">Quem Somos</a></li>
         <li><a href="#beneficios" class="nav-link px-2 text-dark">Benefícios</a></li>
         <li><a href="#services" class="nav-link px-2 text-dark">Soluções</a></li>
       </ul>
 
-      <div class="col-md-3 text-end">
+      
+      <nav class="navbar navbar-dark d-block d-sm-none col-6">
+        <div class="container justify-content-end ">
+          <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      
+      <div class="col-md-3 col-sm-6  text-end d-none d-sm-block ">
         <button type="button" class="btn-grad">Contate nos</button>
       </div>
     </div>  
-    </header>
+  </header>
+  <div class="collapse" id="navbarToggleExternalContent">
+    <ul id="list-nav" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <li><a href="#sobre" class=" nav-link px-2 text-dark">Quem Somos</a></li>
+      <li><a href="#beneficios" class="nav-link px-2 text-dark">Benefícios</a></li>
+      <li><a href="#services" class="nav-link px-2 text-dark">Soluções</a></li>
+    </ul>
+  </div>
 </div>
+
   
   <!-- <div class="container">
     <section id="home">

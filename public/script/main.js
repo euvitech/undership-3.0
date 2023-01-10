@@ -18,12 +18,12 @@
 
 
             logo.src = "/public/assets/logo-white.svg"
-            textLogo.textContent = 'Conectando negócios a quem precisa da solução. Vamos juntos?'
+            // textLogo.textContent = 'Conectando negócios a quem precisa da solução. Vamos juntos?'
 
         } else { 
             bgHeader.classList.remove('bg-dark')
             logo.src = "/public/assets/logo.svg"
-            textLogo.textContent = ''
+            // textLogo.textContent = ''
             navMenu1.classList.remove('d-none')
 
             textA.classList.remove('col-md-6')
