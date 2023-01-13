@@ -1,9 +1,7 @@
 {
     "name": "vinicius/vendor",
     "require": {
-        "google/apiclient": "^2.10",
-        "hybridauth/hybridauth": "~3.0",
-        "guzzlehttp/guzzle": "^7.4"
+        "google/apiclient": "^2.10"
     },
     "license": "MIT",
     "autoload": {

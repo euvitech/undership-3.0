@@ -6,6 +6,8 @@
     box-sizing: border-box;
 
     scroll-behavior: smooth;
+
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -37,6 +39,8 @@ html {
 body {
     background-color: var(--color-background);
 }
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 
 #menu {
     margin-bottom: 0rem;
@@ -204,3 +208,6 @@ label, input, textarea {
     margin-top: 2rem;
 }
 
+.opacity-1 {
+    opacity: 1 !important;
+}

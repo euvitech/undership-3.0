@@ -27,7 +27,7 @@
     <header class="d-flex align-items-center justify-content-center justify-content-md-between py-3 mb-4" id="header">
       <a href="#" class="col-6 navbar-brand d-flex align-items-center col-sm-6 col-md-3 mb-2 mb-md-0 text-dark text-decoration-none" id="a-text">
         <img class="" id="logo" src="public/assets/logo.svg" alt="Logo Undership">
-        <span id="text-logo" class="mx-5 "></span>
+        <span id="text-logo" class="mx-5 d-none d-md-block"></span>
       </a>
 
       <ul id="list-nav" class="d-none d-md-flex nav col-5 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -55,56 +55,25 @@
       <li><a id="text-li" href="#sobre" class="text-dark nav-link px-2">Quem Somos</a></li>
       <li><a id="text-li2" href="#beneficios" class="text-dark nav-link px-2">Benefícios</a></li>
       <li><a id="text-li3" href="#services" class="text-dark nav-link px-2">Soluções</a></li>
+      <li><a id="text-li4" href="#form" class="text-dark nav-link px-2">Contate-nos</a></li>
     </ul>
   </div>
 </div>
 
-  
-  <!-- <div class="container">
-    <section id="home">
-        <main>
-            <h1>UnderShip, sua agência de performance digital</h1>
-    
-            <div class="function">
-                <p>Somos aceleradores de negócios com foco em ajudar a vender o seu produto ou serviço mais vezes, para mais pessoas e por um valor maior.</p>
-                <ul>
-                    <li>Negócio Local</li>
-                    <li>E-commerce</li>
-                    <li>Infoproduto</li>
-                </ul>
-                <div class="buttons">
-                  <a href="#form">
-                    <button type="button" class="btn-grad">Quero receber contato</button>
-                  </a>
-                  <a href="#sobre">
-                    <button type="button" class="btn-off"> Quero conhecer mais</button>
-                  </a>
-                </div>
-            </div>
-        </main>
-    
-        <div class="content">
-            <div id="background-img">
-                <img src="public/assets/connection-lost.png" alt="imagem planta minimalista">
-            </div>
-        </div>
-
-        <div class="arrows">
-            <img id="arrow-down" src="/public/assets/arrow-down.svg" alt="">
-        </div>
-    </section>
-  </div> -->
-
   <article>
     <div class="container col-xxl-8 px-4 py-5 ">
+      <div id="img-background-home" class="d-block d-md-none vh-100 img-fluid">
+        <img src="public/assets/planet-blue.svg" alt="Planeta undership azul - imagem">
+        <img src="public/assets/planet-golden.svg" alt="Planeta undership dourado - imagem">
+      </div>
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5 vh-100">
         <div class="col-10 col-sm-8 col-lg-6 d-none d-lg-block">
-          <img src="public/assets/connection-lost.png" alt="imagem planta minimalista" class="d-block mx-lg-auto img-fluid">
+          <img src="public/assets/connection-lost.png" alt="astronauta undership - imagem" class="d-block mx-lg-auto img-fluid">
         </div>
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-6 text-center text-sm-start">
           <h1 class="display-3 fw-bold lh-3 mb-3">UnderShip, sua agência de performance digital</h1>
           <p class="lead">Somos aceleradores de negócios com foco em ajudar a vender o seu produto ou serviço mais vezes, para mais pessoas e por um valor maior.</p>
-          <div class="d-grid justify-content-center gap-2 d-flex justify-content-md-start">
+          <div class="d-grid justify-content-center gap-2 d-flex justify-content-sm-start">
             <a href="#form">
               <button type="button" class="btn-grad px-4 me-md-2">Quero receber contato</button>
             </a>
@@ -153,13 +122,13 @@
 
     <img src="public/assets/barrer.svg" alt="">
 
-    <section class="container pt-4 pt-lg-0 pb-4 pb-lg-5" id="beneficios">
-        <h2 class="display-5 fw-bold lh-1 mb-3">Benefícios</h2>
+    <section class="container text-center text-sm-start pt-4 pt-lg-0 pb-4 pb-lg-5" id="beneficios">
+        <h2 class="display-5 fw-bold lh-1 mb-0">Benefícios</h2>
         <div class="py-5" id="featured-3">
-          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="row g-4 py-0 row-cols-1 row-cols-lg-3">
             <div class="feature col">
               <div class="feature-icon bg-primary bg-gradient">
-                <img src="public/assets/sliders.svg" alt="">
+                <img src="public/assets/sliders.svg" alt="controles undership - icon">
               </div>
               <h2>Esteja onde seu cliente está</h2>
               <p class="lead">Com os anúncios online apareça em posicionamentos específicos e nas plataformas do Instagram, Facebook, YouTube, Google e TikTok.
@@ -168,17 +137,16 @@
 
             <div class="feature col">
               <div class="feature-icon bg-primary bg-gradient">
-                <img src="public/assets/dollar-sign.svg" alt="">
+                <img src="public/assets/dollar-sign.svg" alt="dinheiro undership - icon">
 
               </div>
-              <h2>Tenha sites que convertam</h2>
-              <h2>em vendas</h2>
+              <h2>Tenha sites que convertam <br> em vendas</h2>
               <p class="lead">Ganhe presença digital com design, copy, funcionalidades e otimizações com SEO.</p>
             </div>
 
             <div class="feature col">
               <div class="feature-icon bg-primary bg-gradient">
-                <img src="public/assets/compass.svg" alt="">
+                <img src="public/assets/compass.svg" alt="Bussula undership - icon">
 
               </div>
               <h2>Público alvo personalizado</h2>
@@ -191,7 +159,7 @@
       </section>
    
       <article class="for-whom">
-        <div class="container my-5 rounded">
+        <div class="container rounded">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-6 align-items-center rounded-3 border shadow">
               <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
                 <h1 class="display-5 fw-bold lh-1 mb-3">Grandes resultados, mesmo que invista R$ 1 mil ou R$ 100 mil por mês</h1>
@@ -260,7 +228,7 @@
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden d-none d-lg-block">
-                <img class="rounded-lg-3 img-fluid" src="public/assets/dog.png" alt="" width="450">
+                <img class="rounded-lg-3 img-fluid" src="public/assets/success.png" alt="foguete undership - imagem" width="350">
             </div>
             <div class="buttons justify-content-sm-center mb-4" >
               <a href="#form">
@@ -275,7 +243,7 @@
         <div class="container p-4 pb-0 pe-lg-0 pt-lg-6 align-items-center">
         <div class="row align-items-center">
           <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden d-none d-lg-block">
-            <img class="rounded-lg-3 img-fluid" src="public/assets/subida-pika.png" alt="" width="450">
+            <img class="rounded-lg-3 img-fluid" src="public/assets/subida.png" alt="serviços undership - imagem" width="450">
           </div>
   
           <div class="accordion col-lg-6 p-3 p-lg-5 pt-lg-3" id="accordionServices">
@@ -373,7 +341,7 @@
         <div class="container col-xxl-8 px-4 py-5 border shadow">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-              <img src="public/assets/message-sent.png" class="d-block mx-lg-auto img-fluid" alt="imagem" width="500" height="300" >
+              <img src="public/assets/message-sent.png" class="d-block mx-lg-auto img-fluid" alt="Para quem é a undership? - imagem" width="500" height="300" >
             </div>
             <div class="col-lg-6">
                 <h1 class="display-5 fw-bold lh-1 mb-5">Possuímos recursos necessários para</h1>
@@ -462,7 +430,7 @@
       <section id="ferramentas" class="mt-5 py-5 bg-dark text-light container-fluid">
         <h2 class="display-5 d-flex justify-content-center fw-bold lh-1 mt-5 mb-5 container">Utilizamos métodos, plataformas e tecnologias para facilitar no dia a dia. </h2>
         <div>
-            <img src="public/assets/bg-ferramentas.jpg" alt="" class="rounded mx-auto d-block img-fluid">
+            <img src="public/assets/ferramentas.svg" alt="ferramentas" class="rounded mx-auto d-block img-fluid">
         </div>
       </section>
 
@@ -470,7 +438,7 @@
         <div class="container  col-xl-10 col-xxl-8 px-4 py-5">
           <div class="row flex justify-content-center align-items-center g-lg-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-              <img src="public/assets/new-message.png" class="d-block mx-lg-auto img-fluid" alt="imagem" width="500" height="300" >
+              <img src="public/assets/new-message.png" class="d-block mx-lg-auto img-fluid" alt="formulário - imagem" width="500" height="300" >
             </div>
 
             <div class="col-md-10 mx-auto col-lg-6">
@@ -484,7 +452,7 @@
           
                   <div class="form-floating mb-label col-md-12">
                     <input type="text" name="name" class="form-control rounded-3 bg-dark text-light" id="name" placeholder="Qual seu nome?" required>
-                    <label for="name">Qual seu Nome?</label>
+                    <label for="name">Qual seu nome?</label>
                     <div class="valid-feedback">
                       Tudo certo!
                     </div>
@@ -495,7 +463,7 @@
 
                   <div class="form-floating col-md-6 mb-label" >
                     <input type="email" class="form-control rounded-3 lead bg-dark text-light " id="email" name="email" placeholder="name@example.com" required>
-                    <label for="email">Qual Seu E-mail</label>
+                    <label for="email">Qual seu e-mail?</label>
                     <div class="valid-feedback">
                       Tudo certo!
                     </div>
@@ -524,7 +492,7 @@
                       <option value="21-50">21 - 50</option>
                       <option value="+50">+50</option>
                     </select>
-                    <label for="employees">Quantos funcionários na sua empresa?</label>
+                    <label for="employees" class="opacity-1">Quantos funcionários na sua empresa?</label>
                     <!-- <div class="valid-feedback">
                       Tudo certo!
                     </div>
@@ -553,7 +521,7 @@
                       <option value="De 101 mil à 400 mil">Mais de 400 mil
                       </option>
                     </select>
-                    <label for="billing">Qual o faturamento mensal da sua empresa?</label>
+                    <label for="billing" class="opacity-1">Qual o faturamento mensal da sua empresa?</label>
                     <!-- <div class="valid-feedback">
                       Tudo certo!
                     </div>
@@ -591,7 +559,7 @@
           </div>
           <div class="col-md-4 d-flex align-items-center justify-content-end">
             <span>Mídias Sociais: </span>
-            <a href="https://www.instagram.com/undership_/" target="_blank"><img src="/public/assets/instagram-icon.svg" alt="Instagram" width="42"></a>
+            <a href="https://www.instagram.com/undership_/" target="_blank"><img src="/public/assets/instagram-icon.svg" alt="Instagram undership" width="42"></a>
           </div>
         </div>
       </footer>

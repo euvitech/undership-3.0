@@ -49,7 +49,7 @@
   }
   
   header #logo {
-    width: 52px;
+    width: 4.5rem;
   }
   
   #menu a {
@@ -91,6 +91,29 @@
     align-items: center;
   
     height: 100vh;
+  }
+
+  #img-background-home {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #img-background-home img {
+    position: absolute;
+    width: 20rem;
+  }
+
+  #img-background-home img:nth-child(1) {
+    opacity: .7;
+    width: 15rem;
+    bottom: 10vh;
+    left: 40vw;
+  }
+
+  #img-background-home img:nth-child(2) {
+    opacity: .6;
+    bottom: 65vh;
+    left: 0vw;
   }
   
   section #background-img img {
@@ -227,11 +250,15 @@
 }
 
 #beneficios {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 748px) {
   footer.div:nth-child(1) {
     justify-content: center !important;
+  }
+
+  header #logo {
+    padding-left: 1rem;
   }
 }
